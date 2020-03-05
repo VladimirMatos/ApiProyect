@@ -1,0 +1,14 @@
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\bin\Debug\netstandard2.0\ApiXamarin.deps.json
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\bin\Debug\netstandard2.0\ApiXamarin.dll
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\obj\Debug\netstandard2.0\ApiXamarin.AssemblyInfoInputs.cache
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\obj\Debug\netstandard2.0\ApiXamarin.AssemblyInfo.cs
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\bin\Debug\netstandard2.0\ref\ApiXamarin.dll
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\bin\Debug\netstandard2.0\ApiXamarin.pdb
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\obj\Debug\netstandard2.0\ApiXamarin.csprojAssemblyReference.cache
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\obj\Debug\netstandard2.0\Views\PlayerInfoView.xaml.g.cs
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\obj\Debug\netstandard2.0\ApiXamarin.dll
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\obj\Debug\netstandard2.0\ref\ApiXamarin.dll
+C:\Users\vladi\source\repos\ApiXamarin\ApiXamarin\ApiXamarin\obj\Debug\netstandard2.0\ApiXamarin.pdb
