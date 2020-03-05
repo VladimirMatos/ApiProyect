@@ -1094,11 +1094,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin.iOS\\ApiXamarin.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin.iOS\\ApiXamarin.iOS.csproj",
       "projectName": "ApiXamarin.iOS",
-      "projectPath": "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin.iOS\\ApiXamarin.iOS.csproj",
+      "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin.iOS\\ApiXamarin.iOS.csproj",
       "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin.iOS\\obj\\",
+      "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1119,8 +1119,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin\\ApiXamarin.csproj": {
-              "projectPath": "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin\\ApiXamarin.csproj"
+            "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin\\ApiXamarin.csproj": {
+              "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin\\ApiXamarin.csproj"
             }
           }
         }

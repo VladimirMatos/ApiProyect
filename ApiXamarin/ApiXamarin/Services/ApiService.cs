@@ -11,14 +11,14 @@ namespace ApiXamarin.Services
 {
     public class ApiService : IApiService
     {
-        string url = " http://api.football-data.org/v2/players/";
-        public string ApiKey { get => "apikey=66cf3c4e56174af1a3f83256d0750e9c"; }
+        string url = " http://api.football-data.org/v2/players/44";
 
         public async Task<PlayersInfo> GetPlayerInfo()
         {
            
             HttpClient httpClient = new HttpClient();
-            var result = await httpClient.GetStringAsync(url + ApiKey);
+            httpClient.DefaultRequestHeaders.Add("x-auth-token", "66cf3c4e56174af1a3f83256d0750e9c");
+            var result = await httpClient.GetStringAsync(url);
             return JsonConvert.DeserializeObject<PlayersInfo>(result);
 
         }

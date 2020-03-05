@@ -1980,11 +1980,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin.Android\\ApiXamarin.Android.csproj",
+      "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin.Android\\ApiXamarin.Android.csproj",
       "projectName": "ApiXamarin.Android",
-      "projectPath": "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin.Android\\ApiXamarin.Android.csproj",
+      "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin.Android\\ApiXamarin.Android.csproj",
       "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin.Android\\obj\\",
+      "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2005,8 +2005,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin\\ApiXamarin.csproj": {
-              "projectPath": "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin\\ApiXamarin.csproj"
+            "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin\\ApiXamarin.csproj": {
+              "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin\\ApiXamarin.csproj"
             }
           }
         }

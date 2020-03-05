@@ -614,11 +614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin\\ApiXamarin.csproj",
+      "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin\\ApiXamarin.csproj",
       "projectName": "ApiXamarin",
-      "projectPath": "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin\\ApiXamarin.csproj",
+      "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin\\ApiXamarin.csproj",
       "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladi\\source\\repos\\ApiXamarin\\ApiXamarin\\ApiXamarin\\obj\\",
+      "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\ApiProyect\\ApiXamarin\\ApiXamarin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

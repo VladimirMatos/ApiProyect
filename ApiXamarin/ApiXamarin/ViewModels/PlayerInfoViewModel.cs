@@ -20,7 +20,7 @@ namespace ApiXamarin.ViewModels
         public string PlayersInfo { get; set; }
         public PlayersInfo Info { get; set; }
 
-       
+        public ObservableCollection<PlayersInfo> PlayersInfos { get; set; } = new ObservableCollection<PlayersInfo>();
         public PlayerInfoViewModel()
         { 
             GetDataAysnc();
