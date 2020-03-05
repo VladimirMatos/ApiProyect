@@ -22,11 +22,13 @@ namespace ApiXamarin.ViewModels
 
         public ObservableCollection<PlayersInfo> PlayersInfos { get; set; } = new ObservableCollection<PlayersInfo>();
         public PlayerInfoViewModel()
-        { 
+        {
+
             GetDataAysnc();
         }
         async Task GetDataAysnc()
         {
+
             if (Connectivity.NetworkAccess == NetworkAccess.Internet)
             {
                 try

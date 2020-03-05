@@ -6,20 +6,21 @@
              mc:Ignorable="d"
              x:Class="ApiXamarin.Views.PlayerInfoView"
              Title="Players Info">
+    
     <ListView ItemsSource="{Binding PlayersInfos}">
         <ListView.ItemTemplate >
             <DataTemplate>
                 <ViewCell>
                     <StackLayout>
-                        <Label Text="{Binding Info.ID}"/>
-                <Label Text="{Binding Info.Name}"/>
-                <Label Text="{Binding Info.FirstName}"/>
-                <Label Text="{Binding Info.LastName}" />
-                <Label Text="{Binding Info.DateOfBirth}"/>
-                <Label Text="{Binding Info.CountryOfBirth}"/>
-                <Label Text="{Binding Info.Nationality}" />
-                <Label Text="{Binding Info.Position}" />
-                <Label Text="{Binding Info.LastUpdated}" />
+                        <Label Text="{Binding ID}"/>
+                        <Label Text="{Binding PlayersInfos.Name}"/>
+                        <Label Text="{Binding Info.FirstName}"/>
+                        <Label Text="{Binding Info.LastName}" />
+                        <Label Text="{Binding Info.DateOfBirth}"/>
+                        <Label Text="{Binding Info.CountryOfBirth}"/>
+                        <Label Text="{Binding Info.Nationality}" />
+                         <Label Text="{Binding Info.Position}" />
+                        <Label Text="{Binding Info.LastUpdated}" />
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>
