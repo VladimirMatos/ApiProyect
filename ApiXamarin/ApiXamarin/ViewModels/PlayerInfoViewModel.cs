@@ -19,13 +19,31 @@ namespace ApiXamarin.ViewModels
         IApiService _apiService = new ApiService();
         public string PlayersInfo { get; set; }
         public PlayersInfo Info { get; set; }
+        public ApiService apiService { get; set; } = new ApiService();
 
         public ObservableCollection<PlayersInfo> PlayersInfos { get; set; } = new ObservableCollection<PlayersInfo>();
+
         public PlayerInfoViewModel()
         {
-
+            
             GetDataAysnc();
         }
+        async Task GetPlayers()
+        {
+            try
+            {
+                
+                var response = await apiService.GetPlayerInfo();
+                this.PlayersInfo = response.Name;
+            }
+            catch (Exception ex)
+            {
+
+                Debug.WriteLine($"Error en el metodo Players:{ex.Message}");
+            }
+         
+        }
+
         async Task GetDataAysnc()
         {
 
