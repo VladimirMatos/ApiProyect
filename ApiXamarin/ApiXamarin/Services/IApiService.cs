@@ -8,7 +8,7 @@ namespace ApiXamarin.Services
 {
     public interface IApiService
     {
-        Task<PlayersInfo> GetPlayerInfo();
+        Task<PlayersInfo> GetPlayerInfo(string id);
 
 
     }
