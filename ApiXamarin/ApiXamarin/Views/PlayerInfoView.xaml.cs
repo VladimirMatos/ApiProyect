@@ -21,9 +21,9 @@ namespace ApiXamarin.Views
             InitializeComponent();
 
             BindingContext = new PlayerInfoViewModel();
-          
+           
         }
-       
-       
+
+
     }
 }

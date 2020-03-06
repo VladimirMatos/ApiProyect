@@ -7,24 +7,20 @@
              x:Class="ApiXamarin.Views.PlayerInfoView"
              Title="Players Info">
 
-    <ListView ItemsSource="{Binding PlayersInfos}">
-        <ListView.ItemTemplate >
-            <DataTemplate>
-                <ViewCell>
-                    <StackLayout>
-                        <Label Text="Hola"/>
-                        <Label Text="{Binding PlayersInfos.Name}"/>
-                        <Label Text="{Binding FirstName}"/>
-                        <Label Text="{Binding LastName}" />
-                        <Label Text="{Binding DateOfBirth}"/>
-                        <Label Text="{Binding CountryOfBirth}"/>
-                        <Label Text="{Binding Nationality}" />
-                        <Label Text="{Binding Position}" />
-                        <Label Text="{Binding LastUpdated}" />
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Text="{Binding PlayersInfo.ID}" Keyboard="Email" Placeholder="ID"/>
+            <Button Text="Buscar" Command="{Binding PlayerInfoCommand}"/>
+            <Label Text="{Binding PlayersInfo.Name}"/>
+            <Label Text="{Binding PlayersInfo.FirstName}"/>
+            <Label Text="{Binding PlayersInfo.LastName}" />
+            <Label Text="{Binding PlayersInfo.DateOfBirth}"/>
+            <Label Text="{Binding PlayersInfo.CountryOfBirth}"/>
+            <Label Text="{Binding PlayersInfo.Nationality}" />
+            <Label Text="{Binding PlayersInfo.Position}" />
+            <Label Text="{Binding PlayersInfo.LastUpdated}" />
 
-                    </StackLayout>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
-</ContentPage>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage> 

@@ -11,59 +11,35 @@ using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using ApiXamarin.Views;
+using System.ComponentModel;
+using System.Windows.Input;
 
 namespace ApiXamarin.ViewModels
 {
-    public class PlayerInfoViewModel
+    public class PlayerInfoViewModel : INotifyPropertyChanged
     {
         IApiService _apiService = new ApiService();
-        public string PlayersInfo { get; set; }
-        public PlayersInfo Info { get; set; }
+        public ICommand PlayerInfoCommand { get; set; }
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public PlayersInfo PlayersInfo { get; set; } = new PlayersInfo();
         public ApiService apiService { get; set; } = new ApiService();
 
-        public ObservableCollection<PlayersInfo> PlayersInfos { get; set; } = new ObservableCollection<PlayersInfo>();
+        public ObservableCollection<PlayersInfo> PlayersInfos { get; set; } 
 
         public PlayerInfoViewModel()
         {
-            
-            GetDataAysnc();
+            PlayerInfoCommand = new Command(async () =>
+            {
+                await GetPlayers();
+            });
+           
         }
+    
         async Task GetPlayers()
         {
-            try
-            {
-                
-                var response = await apiService.GetPlayerInfo();
-                this.PlayersInfo = response.Name;
-            }
-            catch (Exception ex)
-            {
-
-                Debug.WriteLine($"Error en el metodo Players:{ex.Message}");
-            }
-         
-        }
-
-        async Task GetDataAysnc()
-        {
-
-            if (Connectivity.NetworkAccess == NetworkAccess.Internet)
-            {
-                try
-                {
-                    Info = await _apiService.GetPlayerInfo();
-                }
-                catch (Exception ex)
-                {
-                    Debug.WriteLine($"API EXCEPTION {ex}");
-                }
-
-            }
-            else
-            {
-                
-            }
-
+          var response = await _apiService.GetPlayerInfo(PlayersInfo.ID);
+            PlayersInfo = response;
         }
 
     }
