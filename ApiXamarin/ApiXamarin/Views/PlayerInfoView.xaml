@@ -8,19 +8,68 @@
              Title="Players Info">
 
     <ContentPage.Content>
-        <StackLayout>
-            <Entry Text="{Binding PlayersInfo.ID}" Keyboard="Email" Placeholder="ID"/>
-            <Button Text="Buscar" Command="{Binding PlayerInfoCommand}"/>
-            <Label Text="{Binding PlayersInfo.Name}"/>
-            <Label Text="{Binding PlayersInfo.FirstName}"/>
-            <Label Text="{Binding PlayersInfo.LastName}" />
-            <Label Text="{Binding PlayersInfo.DateOfBirth}"/>
-            <Label Text="{Binding PlayersInfo.CountryOfBirth}"/>
-            <Label Text="{Binding PlayersInfo.Nationality}" />
-            <Label Text="{Binding PlayersInfo.Position}" />
-            <Label Text="{Binding PlayersInfo.LastUpdated}" />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height=""/>
+                <RowDefinition Height=""/>
+                <RowDefinition Height=""/>
+                <RowDefinition Height=""/>
+                <RowDefinition Height=""/>
+                <RowDefinition Height=""/>
+                <RowDefinition Height=""/>
+                <RowDefinition Height=""/>
+                <RowDefinition Height=""/>
+                <RowDefinition Height=""/>
 
-        </StackLayout>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=""/>
+            </Grid.ColumnDefinitions>
+            <StackLayout>
+                <Entry Text="{Binding PlayersInfo.ID}" Keyboard="Email" Placeholder="ID"
+                        
+                       Grid.Column="0"
+                       Grid.Row="0"/>
+                <Button Text="Buscar" Command="{Binding PlayerInfoCommand}"
+                         TextColor="Black"
+                        Grid.Column="0"
+                       Grid.Row="1"/>
+                <Label Text="{Binding PlayersInfo.Name}"
+                   TextColor="Black"
+                       Grid.Column="0"
+                       Grid.Row="2"/>
+                <Label Text="{Binding PlayersInfo.FirstName}"
+                        TextColor="Black"
+                       Grid.Column="0"
+                       Grid.Row="3"/>
+                <Label Text="{Binding PlayersInfo.LastName}" 
+                        TextColor="Black"
+                       Grid.Column="0"
+                       Grid.Row="4"/>
+                <Label Text="{Binding PlayersInfo.DateOfBirth}"
+                        TextColor="Black"
+                       Grid.Column="0"
+                       Grid.Row="5"/>
+                <Label Text="{Binding PlayersInfo.CountryOfBirth}"
+                        TextColor="Black"
+                       Grid.Column="0"
+                       Grid.Row="6"/>
+                <Label Text="{Binding PlayersInfo.Nationality}"
+                        TextColor="Black"
+                       Grid.Column="0"
+                       Grid.Row="7"/>
+                <Label Text="{Binding PlayersInfo.Position}"
+                        TextColor="Black"
+                       Grid.Column="0"
+                       Grid.Row="8"/>
+                <Label Text="{Binding PlayersInfo.LastUpdated}"
+                        TextColor="Black"
+                       Grid.Column="0"
+                       Grid.Row="9"/>
+
+            </StackLayout>
+        </Grid>
+       
     </ContentPage.Content>
 
 </ContentPage> 
